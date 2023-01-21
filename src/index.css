@@ -65,6 +65,7 @@ body {
   color: var(--primary);
 }
 .project-desc {
+  font-size: 15px;
   color: var(--text);
   opacity: 70%;
 }
@@ -82,4 +83,27 @@ body {
 }
 .collab-2 {
   transform: translateX(-14px);
+}
+/* -------------
+  RESPONSIVENESS
+  -------------- */
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project-main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 350px) {
+  .project-main {
+    grid-template-columns: 1fr;
+  }
 }
