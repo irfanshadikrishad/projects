@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400;700&display=swap");
+:root {
+  --text: #252525;
+  --text-2: #25252580;
+  --bg: whitesmoke;
+  --primary: #3db4f2;
+  --secondary: rgb(237 237 237);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  color: var(--text);
+  background-color: var(--bg);
+}
+.dark-mode {
+  --bg: #252525;
+  --text: whitesmoke;
+  --text-2: #6a6a6a80;
+  --secondary: rgb(46 46 46);
+}
+.light-mode {
+  --text: #252525;
+  --text-2: #25252580;
+  --bg: whitesmoke;
+  --secondary: rgb(237 237 237);
+}
+.dark-blue {
+  --text: whitesmoke;
+  --text-2: #8d8d8d1c;
+  --bg: #0b1622;
+  --primary: #3db4f2;
+  --secondary: #151f2e;
+}
+/* -------------
+  INITIALIZATION
+  -------------- */
+.container {
+  margin: 0 auto;
+  width: 50%;
 }
