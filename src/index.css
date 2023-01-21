@@ -41,3 +41,45 @@ body {
   margin: 0 auto;
   width: 50%;
 }
+.project-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 1.5vh 0;
+}
+.project-img {
+  width: 100%;
+  border-radius: 5px;
+}
+.project-box {
+  padding: 5px;
+  background-color: var(--secondary);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.project {
+  padding: 5vh 0;
+}
+.title,
+.project-title {
+  color: var(--primary);
+}
+.project-desc {
+  color: var(--text);
+  opacity: 70%;
+}
+.collab-main {
+  display: flex;
+}
+.collab {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.collab-img {
+  width: 100%;
+  border-radius: 50%;
+}
+.collab-2 {
+  transform: translateX(-14px);
+}
